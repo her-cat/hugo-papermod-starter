@@ -12,7 +12,7 @@
 ## 快速开始
 
 ```bash
-git clone --recurse-submodules <your-repo-url> my-blog
+git clone --recurse-submodules https://github.com/her-cat/hugo-papermod-starter my-blog
 cd my-blog
 hugo server
 ```
@@ -42,9 +42,7 @@ git submodule update --init --recursive
 | `layouts/robots.txt`、`layouts/sitemap.xml` | SEO | sitemap 按页面类型设置 priority，robots 屏蔽 tags 分页 |
 | `assets/css/extended/*.css` | 样式 | `blank.css`（布局）、`reading.css`（阅读体验）、`fonts.css`（本地 Inter 字体） |
 
-以下文件**不再覆盖**，直接使用 PaperMod 内置能力：
-`baseof.html`（`data-theme` 主题切换）、`rss.xml`（`ShowFullTextinRSS` / `hiddenInRss`）、
-`templates/schema_json.html`（`params.schema.publisherType`）。
+详情见：<https://her-cat.com/posts/2025/10/08/hugo-paper-mod/>
 
 ## 配置
 
