@@ -64,10 +64,6 @@ git add themes/PaperMod
 git commit -m "chore: bump PaperMod"
 ```
 
-## 作为 GitHub Template 使用
-
-在仓库 **Settings → General → Template repository** 勾选后，读者可点 **Use this template** 直接创建自己的站点。
-
 ## 部署
 
 `.github/workflows/hugo.yml` 会在 push 到 `main` 时构建并发布到 GitHub Pages
